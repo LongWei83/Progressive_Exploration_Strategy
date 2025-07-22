@@ -1,0 +1,24 @@
+Postprocessing Logfile 
+
+----------------------------------------------------------------------------------------
+Units settings: 
+
+  Dimensions: mm
+  Frequency:  GHz
+  Time:       ns
+
+----------------------------------------------------------------------------------------
+
+Template based postprocessing started at: 10:56 AM Friday, 14. June 2024
+
+  Evaluating 'R over Q beta=1 (Multiple Modes)': 1 s
+  Evaluating 'Q-Factor (Perturbation) (Multiple Modes)': 0 s
+  Evaluating 'Shunt Impedance (Pertubation) beta=1 (Mode 1)': 0 s
+  Evaluating 'Frequency (Mode 1)': 0 s
+  Evaluating 'Voltage beta=1 (Mode 1)': 0 s
+  Evaluating 'curve1_Int_e': 0 s
+
+  Total time: 4 s  ( = 0 h, 0 m, 4 s )
+
+Template based postprocessing finished at: 10:56 AM Friday, 14. June 2024
+----------------------------------------------------------------------------------------

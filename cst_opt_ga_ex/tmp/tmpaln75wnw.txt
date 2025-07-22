@@ -1,0 +1,14 @@
+C:\Users\long\Documents\ml_codes\cst_opt_ga_ex\tmp\tmpaln75wnw.txt
+C:\Users\long\Documents\ml_codes\cst_opt_ga_ex\tmp\tmp0qdq64o0.cst
+ 11
+ 0	D	5.4683	
+ 1	L1	lambda/2	
+ 2	a1	aa*lambda	
+ 3	aa	0.4331	
+ 4	b1	a1+mm	
+ 5	c1	cc*lambda	
+ 6	cc	0.8055	
+ 7	lambda	52.48	
+ 8	mm	3.6837	
+ 9	r	2.624	
+ 10	ww	22.95	

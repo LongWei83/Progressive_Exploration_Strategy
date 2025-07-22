@@ -1,0 +1,39 @@
+{
+    "parameter sweep": {
+        "options": {
+            "restore parameter values after run": "false",
+            "simulation type": "Eigenmode",
+            "skip existing combinations": "true",
+            "start active solver": "true"
+        },
+        "sequences": {
+            "Sequence 1": [
+                {
+                    "from": "0.8",
+                    "samples": "5",
+                    "to": "0.84",
+                    "type": "linear",
+                    "varname": "cc"
+                },
+                {
+                    "from": "0.42",
+                    "samples": "5",
+                    "to": "0.46",
+                    "type": "linear",
+                    "varname": "aa"
+                },
+                {
+                    "from": "1.1",
+                    "samples": "31",
+                    "to": "1.4",
+                    "type": "linear",
+                    "varname": "mm"
+                },
+                {
+                    "index": 1
+                }
+            ]
+        },
+        "version": 1
+    }
+}

@@ -1,0 +1,57 @@
+{
+   "execution": {
+      "classname": "SMAPowerByEmagHPCFrame",
+      "libname": "SMAPowerByEmagUI"
+   },
+   "inputVariables": [
+      {
+         "name": "lambda",
+         "type": "float",
+         "value": 52.48
+      },
+      {
+         "name": "D",
+         "type": "float",
+         "value": 3.0775
+      },
+      {
+         "name": "r",
+         "type": "float",
+         "value": 2.624
+      },
+      {
+         "name": "aa",
+         "type": "float",
+         "value": 0.3903
+      },
+      {
+         "name": "mm",
+         "type": "float",
+         "value": 4.5737
+      },
+      {
+         "name": "cc",
+         "type": "float",
+         "value": 0.7956
+      },
+      {
+         "name": "ww",
+         "type": "float",
+         "value": 22.95
+      }
+   ],
+   "outputVariables": [
+      {
+         "len": 1,
+         "name": "3D\\Shunt Impedance (Pertubation) beta=1 (Mode 1)",
+         "type": "float",
+         "value": 3.265644595599801
+      },
+      {
+         "len": 1,
+         "name": "3D\\Frequency (Mode 1)",
+         "type": "float",
+         "value": 5.86873966591133
+      }
+   ]
+}

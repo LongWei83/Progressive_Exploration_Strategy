@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Filters length="1">
+    <Version>
+        <Version>2020</Version>
+        <Patch>0</Patch>
+        <State>Release</State>
+        <BuildDate>2019-09-25</BuildDate>
+        <BuildNumber>20190925</BuildNumber>
+        <BuildId>2020.0 Release from 2019-09-25 (change 724524)</BuildId>
+    </Version>
+    <Filter index="0">
+        <Units>
+            <Frequency>MHz</Frequency>
+            <Time>ns</Time>
+        </Units>
+        <Type>Equiripple</Type>
+        <Order>4</Order>
+        <ReturnLoss>20</ReturnLoss>
+        <Passband>
+            <Start>1000</Start>
+            <Stop>1100</Stop>
+        </Passband>
+        <UnloadedQ>4000</UnloadedQ>
+        <Topology length="5">
+            <Tuplet index="0">
+                <Type>Source</Type>
+                <Size>0</Size>
+            </Tuplet>
+            <Tuplet index="1">
+                <Type>NormalLeft</Type>
+                <Size>0</Size>
+            </Tuplet>
+            <Tuplet index="2">
+                <Type>NormalLeft</Type>
+                <Size>0</Size>
+            </Tuplet>
+            <Tuplet index="3">
+                <Type>NormalLeft</Type>
+                <Size>0</Size>
+            </Tuplet>
+            <Tuplet index="4">
+                <Type>Load</Type>
+                <Size>0</Size>
+            </Tuplet>
+        </Topology>
+        <OptimizerGoalType>Matrix</OptimizerGoalType>
+    </Filter>
+</Filters>

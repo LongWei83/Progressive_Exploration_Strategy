@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SolutionVectorDescription creator="Eigenmode-Solver">
+  <Field>
+    <Boundary>magnetic; electric; magnetic; electric; periodic; periodic</Boundary>
+    <Frequency>5673420975</Frequency>
+    <Mode>1</Mode>
+    <Symmetry>magnetic; magnetic; none</Symmetry>
+    <Type>Eigenmode</Type>
+  </Field>
+  <Mesh>
+    <BBox>-41.112832; 41.112832; -41.112832; 41.112832; 0; 26.24</BBox>
+    <File>3d.slim</File>
+    <GeomScale>0.001</GeomScale>
+    <Type>Tet</Type>
+  </Mesh>
+</SolutionVectorDescription>

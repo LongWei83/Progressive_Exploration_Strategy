@@ -1,0 +1,60 @@
+{
+    "parameters": [
+        {
+            "expr": "52.48",
+            "name": "lambda",
+            "value": "52.48"
+        },
+        {
+            "expr": "lambda/2",
+            "name": "L1",
+            "value": "26.24"
+        },
+        {
+            "expr": "aa*lambda",
+            "name": "a1",
+            "value": "22.96"
+        },
+        {
+            "expr": "cc*lambda",
+            "name": "c1",
+            "value": "43.442944"
+        },
+        {
+            "expr": "a1+mm",
+            "name": "b1",
+            "value": "26.518"
+        },
+        {
+            "expr": "5.1446",
+            "name": "D",
+            "value": "5.1446"
+        },
+        {
+            "expr": "2.624",
+            "name": "r",
+            "value": "2.624"
+        },
+        {
+            "expr": "0.4375",
+            "name": "aa",
+            "value": "0.4375"
+        },
+        {
+            "expr": "3.558",
+            "name": "mm",
+            "value": "3.558"
+        },
+        {
+            "expr": "0.8278",
+            "name": "cc",
+            "value": "0.8278"
+        },
+        {
+            "expr": "22.95",
+            "name": "ww",
+            "value": "22.95"
+        }
+    ],
+    "version": 1
+}

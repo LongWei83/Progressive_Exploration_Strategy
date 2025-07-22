@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaGeometryFile creator="TetMesher" version="20181214">
+  <Components>
+    <Shape name="Components\component1:solid3" id="0" visible="1" material="Vacuum" line_material="">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list=""/>
+      <MeshGroup2D>
+        <Pos list="93 94 95 96 97 101 102"/>
+        <Neg list="86 87 88 89 90 91 92 98 99 100"/>
+        <DS list=""/>
+      </MeshGroup2D>
+      <MeshGroup3D list="104 103"/>
+    </Shape>
+    <Shape name="Components\component1:solid2" id="1" visible="1" material="MgO" line_material="">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list=""/>
+      <MeshGroup2D>
+        <Pos list="80 81 82 83 84 85 86 87 88 89 90 91 92 98 99 100"/>
+        <Neg list=""/>
+        <DS list=""/>
+      </MeshGroup2D>
+      <MeshGroup3D list="105"/>
+    </Shape>
+    <Shape name="Components\component1:solid2\PEC_Background" id="2" visible="1" material="MgO" line_material="">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list=""/>
+      <MeshGroup2D>
+        <Pos list=""/>
+        <Neg list="80 81 83 85"/>
+        <DS list=""/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="Components\component1:solid3\PEC_Background" id="3" visible="1" material="Vacuum" line_material="">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list=""/>
+      <MeshGroup2D>
+        <Pos list=""/>
+        <Neg list="93 94 102"/>
+        <DS list=""/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+  </Components>
+  <SimulationDomain min="-41.11283111572 -41.11283111572 0" max="41.11283111572 41.11283111572 26.23999977112"/>
+  <Materials>
+    <Material name="PEC" priority="0">
+      <Drawstyle color="1 1 1" linestrength="1" transparency="0"/>
+    </Material>
+    <Material name="MgO" priority="1">
+      <Drawstyle color="0.3333333432674 0.3333333432674 0.3333333432674" linestrength="1" transparency="0"/>
+    </Material>
+    <Material name="Vacuum" priority="1">
+      <Drawstyle color="0.6666666865349 0.6666666865349 0.6666666865349" linestrength="1" transparency="0"/>
+    </Material>
+  </Materials>
+  <GeometryFile filename="3d.slim" type="slim" subdomain_id=""/>
+  <MeshType type="TETRAHEDRAL"/>
+  <Groups/>
+  <HexMesh>
+    <Dimensions nx="39" ny="39" nz="20"/>
+    <MeshPlanesX values="-41.11283111572 -38.94899789911 -36.78516468249 -34.62133146587 -32.45749824925 -30.29366503264 -28.12983181602 -25.9659985994 -23.80216538279 -21.63833216617 -19.47449894955 -17.31066573294 -15.14683251632 -12.9829992997 -10.81916608309 -8.655332866468 -6.491499649851 -4.327666433234 -2.163833216617 -1.756740583481e-13 2.163833216617 4.327666433234 6.491499649851 8.655332866468 10.81916608308 12.9829992997 15.14683251632 17.31066573294 19.47449894955 21.63833216617 23.80216538279 25.9659985994 28.12983181602 30.29366503264 32.45749824925 34.62133146587 36.78516468249 38.9489978991 41.11283111572"/>
+    <MeshPlanesY values="-41.11283111572 -38.94899789911 -36.78516468249 -34.62133146587 -32.45749824925 -30.29366503264 -28.12983181602 -25.9659985994 -23.80216538279 -21.63833216617 -19.47449894955 -17.31066573294 -15.14683251632 -12.9829992997 -10.81916608309 -8.655332866468 -6.491499649851 -4.327666433234 -2.163833216617 -1.756740583481e-13 2.163833216617 4.327666433234 6.491499649851 8.655332866468 10.81916608308 12.9829992997 15.14683251632 17.31066573294 19.47449894955 21.63833216617 23.80216538279 25.9659985994 28.12983181602 30.29366503264 32.45749824925 34.62133146587 36.78516468249 38.9489978991 41.11283111572"/>
+    <MeshPlanesZ values="0 1.381052619533 2.762105239065 4.143157858598 5.52421047813 6.905263097663 8.286315717195 9.667368336728 11.04842095626 12.42947357579 13.81052619533 15.19157881486 16.57263143439 17.95368405392 19.33473667346 20.71578929299 22.09684191252 23.47789453205 24.85894715159 26.23999977112"/>
+  </HexMesh>
+  <Symmetries>
+    <SymmetryX distance="0"/>
+    <SymmetryY distance="0"/>
+  </Symmetries>
+</MetaGeometryFile>

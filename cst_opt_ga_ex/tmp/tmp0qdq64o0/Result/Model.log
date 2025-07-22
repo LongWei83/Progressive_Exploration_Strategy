@@ -1,0 +1,107 @@
+14/Jun/2025 14:11:52  Number of threads used: 8.
+                      
+                      ------------------------------------------------------------------------------
+14/Jun/2025 14:11:52  Solver started at: 02:11 PM Saturday, 14. June 2025 (中国标准时间)
+                      
+                        Module:  Eigenmodes (Win 64)
+                        Version: 2020.0 Release from 2019-09-25 (change 724524)
+                      
+                      ------------------------------------------------------------------------------
+14/Jun/2025 14:11:52  Units settings: 
+                      
+                        Dimensions: mm
+                        Frequency:  GHz
+                        Time:       ns
+                      
+                      ------------------------------------------------------------------------------
+14/Jun/2025 14:11:52  Boundary conditions: 
+                      
+                        YZsymmetry: magnetic
+                        XZsymmetry: magnetic
+                        XYsymmetry: none
+                      
+                        Xmin: magnetic
+                        Xmax: electric
+                      
+                        Ymin: magnetic
+                        Ymax: electric
+                      
+                        Zmin: periodic
+                        Zmax: periodic
+                      
+                      ------------------------------------------------------------------------------
+14/Jun/2025 14:11:52  Eigenmode solver settings:
+                      
+                        Mesh: Tetrahedral
+                        Method: Default
+                        Desired accuracy: 1e-06
+                        Number of modes: 1
+                        Consider losses: no (perturbation method)
+                        Solver order: 2nd (constant)
+                        Curved elements: up to order 2 (user defined)
+                      
+                      ------------------------------------------------------------------------------
+14/Jun/2025 14:11:52  Estimation frequency: 5.65 GHz
+                      
+                      ------------------------------------------------------------------------------
+14/Jun/2025 14:11:52  Adaptive Computation
+                      
+                      ------------------------------------------------------------------------------
+14/Jun/2025 14:11:52  Pass 1: 
+                      
+                      ------------------------------------------------------------------------------
+14/Jun/2025 14:11:52  Eigenmode solver results:
+                      
+                      ------------------------------------------------------------------------------
+14/Jun/2025 14:11:52    Mode		Frequency			Accuracy	
+14/Jun/2025 14:11:52      1 		5.86184171481 GHz		3.243e-07
+14/Jun/2025 14:11:52  ------------------------------------------------------------------------------
+                      
+                      
+                      ------------------------------------------------------------------------------
+14/Jun/2025 14:11:52  *** Warning ***
+                      
+14/Jun/2025 14:11:52  The lowest Eigenmode frequency is greater than the upper frequency range limit. Please check the frequency range.
+                      
+                      ------------------------------------------------------------------------------
+14/Jun/2025 14:11:53  Refinement successful
+14/Jun/2025 14:11:53  Pass 2: 
+                      
+                      ------------------------------------------------------------------------------
+14/Jun/2025 14:11:54  Eigenmode solver results:
+                      
+                      ------------------------------------------------------------------------------
+14/Jun/2025 14:11:54    Mode		Frequency			Accuracy	
+14/Jun/2025 14:11:54      1 		5.86873966591 GHz		9.518e-08
+14/Jun/2025 14:11:54  ------------------------------------------------------------------------------
+                      
+                      
+                      ------------------------------------------------------------------------------
+14/Jun/2025 14:11:54  *** Warning ***
+                      
+14/Jun/2025 14:11:54  The lowest Eigenmode frequency is greater than the upper frequency range limit. Please check the frequency range.
+                      
+                      ------------------------------------------------------------------------------
+14/Jun/2025 14:11:54  
+                      
+                      Solver Statistics:
+                      
+                        ----------------------------------------------------------------------------
+                                            Peak memory used (kB)         Free physical memory (kB) 
+                                                                          At begin     Minimum      
+                        ----------------------------------------------------------------------------
+                        Solver start        15480                         2335388      2334928      
+                        Sol.eigenm.probl.   170096                        2312828      2312828      
+                        Solver run total    170096                        2334544      2317060      
+                      
+                        Computer name       LongOfficePC
+                        ----------------------------------------------------------------------------
+                      
+                        Mesh generation time     :	2 s
+                        Solver time              :	2 s
+                          Solve eigenmode problem:	1 s
+                      
+                        Total time               :	4 s
+                      
+                      
+                      ------------------------------------------------------------------------------
